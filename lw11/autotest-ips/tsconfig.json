@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "ES2018",
+        "module": "commonjs",
+        "sourceMap": true,
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "experimentalDecorators": true,
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "@wdio/mocha-framework",
+            "expect-webdriverio/types/jest-global",
+        ],
+        "outDir": "./misc",
+    }
+}
